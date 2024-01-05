@@ -1,0 +1,56 @@
+<html>
+<head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="ind.css">
+    <link rel="stylesheet" href="loadbar.css">
+</head>
+
+<body>
+
+<div style="height: 40px"></div>
+<div class="centered_parts">
+    <div class="top_box title_box">
+        YouTube mp3 Playlist Downloader
+    </div>
+</div>
+
+<div class="centered_parts">
+    <div class="top_box info_box">
+        Download 100+ .mp3's as a zip file.
+        <br> - Youtube-dl highest quality
+        <br> - Common Mp3s are cached
+        <br> - For downloading copyright-free content
+    </div>
+</div>
+
+<div style="height: 40px"></div>
+<div class="centered_parts">
+    <label class="text_input_box">
+        <input id="urlbox" class="top_box text_input_box" type="text"
+               placeholder="YouTube playlist URL here: http://youtube.com/playlist?...">
+    </label>
+</div>
+<div class="centered_parts">
+    <button id="subbtn" type="button" class="submit_button" onclick="submit()">Start Download</button>
+    <button id="dl_btn" disabled type="button" class="submit_button" onclick="download()">Download .ZIP</button>
+</div>
+<div style="height: 40px"></div>
+<div class="centered_parts">
+    <div id='flb_bar' class="full_loadbar">
+        <span id="flb_text"></span>
+        <div id="flb" class="full_loadbar_prog"></div>
+    </div>
+</div>
+
+<div style="height: 40px"></div>
+<div id="load1" class="centered_parts">
+    <div class="single_load_bar">
+        <div class="load_bar_checkbox"></div>
+        <div class="load_bar_connectbar"></div>
+        <div class="load_bar_loading">Video: ...</div>
+        <div class="load_bar_connectbar2"></div>
+    </div>
+</div>
+</body>
+</html>

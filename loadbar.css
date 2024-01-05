@@ -1,0 +1,89 @@
+
+.single_load_bar{
+    background: #252423;
+    height: 75px;
+    width: 80%;
+}
+
+.load_bar_checkbox{
+    position: relative;
+
+    background: #1c1a19;
+    border-color: #FF4B4B;
+    border-style: solid;
+    border-width: 7px;
+
+    width: 50px;
+    height: 50px;
+    offset-position: 10px 10px;
+    box-sizing: border-box;
+}
+
+.load_bar_checkbox_done{
+    background: darkgreen;
+}
+
+.load_bar_connectbar{
+    position: relative;
+    left: 50px;
+    bottom: 29px;
+
+    background: #FF4B4B;
+
+    width: 50px;
+    height: 7px;
+    offset-position: 10px 10px;
+    box-sizing: border-box;
+}
+.load_bar_connectbar2{
+    position: relative;
+    left: 22px;
+    bottom: 57px;
+
+    background: #FF4B4B;
+
+    width: 7px;
+    height: 30px;
+    offset-position: 10px 10px;
+    box-sizing: border-box;
+}
+
+.load_bar_loading{
+    position: relative;
+    left: 100px;
+    bottom: 58px;
+
+    border-width: 7px;
+    border-color: #FF4B4B;
+    border-style: solid;
+
+    background: #1c1a19;
+    color: dimgrey;
+    padding: 7px;
+
+    width: 90%;
+    height: 50px;
+    offset-position: 10px 10px;
+    box-sizing: border-box;
+}
+
+.full_loadbar{
+    position: relative;
+
+    border-width: 1px;
+    border-color: dimgrey;
+    border-style: solid;
+
+    background: #1c1a19;
+    color: dimgrey;
+
+    width: 80%;
+    height: 20px;
+}
+
+.full_loadbar_prog{
+    width: 0;
+    color: dimgrey;
+    background-color: greenyellow;
+    height: 20px;
+}

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "InputMono";
+    src: url("./fonts/InputMono-Regular.woff2") format("woff2"),
+    url("./fonts/InputMono-Regular.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roobert";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./fonts/Roobert-SemiBold.woff2") format("woff2");
+}
+
+body {
+    background-color: #252423;
+    font-family: "Roobert";
+    height: 100vh;
+}
+
+.centered_parts {
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_box {
+    border: solid black 1px;
+    color: #FF4B4B;
+    background-color: #343131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_box {
+    height: 60px;
+    font-size: 30px;
+    width: 60%;
+}
+.subtitle_box {
+    height: 30px;
+    font-family: "InputMono";
+    font-size: 14px;
+    color: gray;
+    width: 50%;
+}
+
+.info_box {
+    height: 100px;
+    font-family: "InputMono";
+    font-size: 14px;
+    color: darkgray;
+    width: 50%;
+}
+
+.text_input_box{
+    font-family: "InputMono";
+    height: 30px;
+    font-size: 12px;
+    width: 95%;
+    outline-width: 0;
+}
+
+.submit_button {
+    background-color: #343131;
+    color: whitesmoke;
+    font-family: "InputMono";
+    height: 30px;
+    font-size: 14px;
+    width: 20%;
+    transition-duration: 0.15s;
+}
+.submit_button:hover{
+    background: black;
+    color: #FF4B4B;
+}
