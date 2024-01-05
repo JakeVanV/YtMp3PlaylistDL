@@ -9,7 +9,9 @@
 
 # Demo
 
-![demo](Demo.mp4)
+
+https://github.com/JakeVanV/YtMp3PlaylistDL/assets/60329357/7c410d89-1356-465f-8dd7-ba886afe69c4
+
 
 # Todo
  - Delete `.zip` files after 24 hours
