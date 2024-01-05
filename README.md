@@ -8,6 +8,8 @@
  - Zips the mp3s up.
 
 # Demo
-![demo](demo.mp4)
+
+![demo](Demo.mp4)
+
 # Todo
  - Delete `.zip` files after 24 hours
